@@ -1,0 +1,33 @@
+<GeneticsResult:0x007fc4dbfee848
+ id: 510,
+ person_id: "baa37ccf-7a03-4dec-bb80-f42bcae1f69d",
+ result:
+  {"name"=>"Colaris AP",
+   "genes"=>
+    [{"name"=>"APC", "mutations"=>[], "_hasMutation"=>false},
+     {"name"=>"MUTYH", "mutations"=>[], "_hasMutation"=>false}],
+   "status"=>"completed",
+   "testID"=>"colaris_ap",
+   "vendor"=>"Myriad Genetics",
+   "documents"=>["myriadMyRiskTable"],
+   "sort_order"=>5,
+   "vendorData"=>
+    {"id"=>"myriad_genetics",
+     "name"=>"Myriad Genetics",
+     "vendorTin"=>"870514323",
+     "vendorZip"=>"84108",
+     "vendorCity"=>"Salt Lake City",
+     "vendorState"=>"Utah",
+     "primaryOrderUrl"=>
+      "https://assets.canceriq.com/genetic-test-forms/myriad/myRisk%2BCombined%2BTRF.pdf",
+     "vendorFaxNumber"=>"(801) 584-3615",
+     "vendorPhoneNumber"=>"(800) 469-7423",
+     "vendorStreetAddress"=>"320 Wakara Way"},
+   "dateOrdered"=>"01/10/2018",
+   "dateResults"=>nil,
+   "isOtherTest"=>false,
+   "customizable"=>false,
+   "isCustomTest"=>false,
+   "isSingleSiteTest"=>false},
+ created_at: Wed, 10 Jan 2018 13:48:32 CST -06:00,
+ updated_at: Wed, 10 Jan 2018 13:51:38 CST -06:00>

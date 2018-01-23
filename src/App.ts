@@ -2,6 +2,8 @@ import * as path from 'path';
 import * as express from 'express';
 import * as logger from 'morgan';
 import * as bodyParser from 'body-parser';
+import HeroRouter from './routes/HeroRouter';
+import ConfigRouter from './routes/ConfigRouter'
 
 // Creates and configures an ExpressJS web server.
 class App {
@@ -32,10 +34,12 @@ class App {
     // placeholder route handler
     router.get('/', (req, res, next) => {
       res.json({
-        message: 'Hello asshole face'
+        message: 'Hello Good person'
       });
     });
     this.express.use('/', router);
+    this.express.use('/api/v1/heroes', HeroRouter);
+    this.express.use('/api/v1/testing', ConfigRouter);
   }
 
 }

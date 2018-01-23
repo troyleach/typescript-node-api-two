@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const ts = require('gulp-typescript');
-const JSON_FILES = ['src/*.json', 'src/**/*.json'];
+const JSON_FILES = ['src/*.json', 'src/**/*.json', 'templates/**/*.json'];
 
 // pull in the project TypeScript config
 const tsProject = ts.createProject('tsconfig.json');

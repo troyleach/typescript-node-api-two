@@ -1,0 +1,9 @@
+[
+  {
+    "myriad_aetna": {
+      "templateID": "781ec626-7590-4762-bcd6-f5b2c189f2be",
+      "templates": ["consent", "myriad", "family_cancers", "aetna"],
+      "signatures": []
+    }
+  }
+]
